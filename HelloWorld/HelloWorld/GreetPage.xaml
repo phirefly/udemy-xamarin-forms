@@ -4,13 +4,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.GreetPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="{Binding 
-               Source={x:Reference greetingSlider}, 
-               Path=Value, 
+        <Label BindingContext="{x:Reference greetingSlider}"
+               Text="{Binding Value, 
                StringFormat='Value is {0:F2}'}"
-               Opacity="{Binding 
-               Source={x:Reference greetingSlider}, 
-               Path=Value}"
+               Opacity="{Binding Value}"
                >
         </Label>
         <Slider x:Name="greetingSlider" />
