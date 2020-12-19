@@ -17,6 +17,13 @@ namespace HelloWorld
             InitializeComponent();
             // Set the initial value of the slider
             greetingSlider.Value = 0.5;
+            
+            var x = new OnPlatform<Thickness>()
+            {
+                Android = new Thickness(0),
+                iOS = new Thickness(0,20,0,0)
+            };
+            Padding = x;
         }
     }
 }
