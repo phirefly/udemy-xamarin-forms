@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eD7hG9200YsoYFwoFmP83W7Idvgg30zp+j0I3zM29jIz3N9Z50rcnwqJg5fnH5Hg/yvCSn7AnOZEZ9Sxk+7JCA==",
+  "dgSpecHash": "JKOJO4Ou39fz7leoTEwOPG6h9UtMoBfBjn/gtVd4RyVFDNkNGzyKhlJ6qGHYliGt6U51nXCm5uDeSLIlSXnkzg==",
   "success": true,
   "projectFilePath": "/Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld.iOS/HelloWorld.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/raphael.villas/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+    "/Users/raphael.villas/.nuget/packages/xamarin.forms/5.0.0.1791-pre5/xamarin.forms.5.0.0.1791-pre5.nupkg.sha512"
   ],
   "logs": []
 }

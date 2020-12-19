@@ -15,7 +15,7 @@
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/raphael.villas/.config/NuGet/NuGet.Config"
+          "/Users/raphael.villas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid50"
@@ -38,27 +38,27 @@
           "dependencies": {
             "Xamarin.Android.Support.Design": {
               "target": "Package",
-              "version": "[23.4.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.v4": {
               "target": "Package",
-              "version": "[23.4.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
-              "version": "[23.4.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.v7.CardView": {
               "target": "Package",
-              "version": "[23.4.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.v7.MediaRouter": {
               "target": "Package",
-              "version": "[23.4.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.3.0.967583, )"
+              "version": "[5.0.0.1791-pre5, )"
             }
           }
         }
@@ -74,7 +74,7 @@
         "outputPath": "/Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/raphael.villas/.config/NuGet/NuGet.Config"
+          "/Users/raphael.villas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -104,7 +104,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.3.0.967583, )"
+              "version": "[5.0.0.1791-pre5, )"
             }
           },
           "imports": [

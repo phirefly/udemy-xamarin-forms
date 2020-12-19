@@ -17,5 +17,9 @@
         >
         </Label>
         <Slider x:Name="greetingSlider" />
+        
+        <Label Text="Hello again"></Label>
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg" HeightRequest="300" />
+        <Image Source="http://placehold.it/100x100" />
     </StackLayout>
 </ContentPage>

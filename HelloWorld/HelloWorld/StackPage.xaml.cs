@@ -17,7 +17,6 @@ namespace HelloWorld
             InitializeComponent();
 
             backgroundImage.Source = ImageSource.FromUri(new Uri("http://placehold.it/150x150"));
-            backgroundImage2.Source = ImageSource.FromFile("Images/200x200");
         }
     }
 }
