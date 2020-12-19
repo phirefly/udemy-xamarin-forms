@@ -15,13 +15,13 @@ namespace HelloWorld
         public GreetPage()
         {
             InitializeComponent();
-            // Code version of the xaml code
-            // Content = new Label
-            // {
-            //     HorizontalOptions = LayoutOptions.Center,
-            //     VerticalOptions = LayoutOptions.Center,
-            //     Text = "Hello World from code"
-            // };
+            // Set the initial value of the slider
+            greetingSlider.Value = 0.5;
+        }
+
+        private void Slider_OnValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            greetingLabel.Text = String.Format("Value is {0:F2}", e.NewValue);
         }
     }
 }
