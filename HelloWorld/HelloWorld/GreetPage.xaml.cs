@@ -18,10 +18,5 @@ namespace HelloWorld
             // Set the initial value of the slider
             greetingSlider.Value = 0.5;
         }
-
-        private void Slider_OnValueChanged(object sender, ValueChangedEventArgs e)
-        {
-            greetingLabel.Text = String.Format("Value is {0:F2}", e.NewValue);
-        }
     }
 }

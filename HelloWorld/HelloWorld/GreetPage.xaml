@@ -4,7 +4,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.GreetPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="Ahoy there!!" x:Name="greetingLabel" />
-        <Slider ValueChanged="Slider_OnValueChanged" x:Name="greetingSlider" />
+        <Label Text="{Binding 
+                Source={x:Reference greetingSlider}, 
+                Path=Value, 
+                StringFormat='Value is {0:F2}'}">
+        </Label>
+        <Slider x:Name="greetingSlider" />
     </StackLayout>
 </ContentPage>
