@@ -10,13 +10,14 @@ using Xamarin.Forms.Xaml;
 namespace HelloWorld
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class GreetPage : ContentPage
+    public partial class StackPage : ContentPage
     {
-        public GreetPage()
+        public StackPage()
         {
             InitializeComponent();
-            // Set the initial value of the slider
-            greetingSlider.Value = 0.5;
+
+            backgroundImage.Source = ImageSource.FromUri(new Uri("http://placehold.it/150x150"));
+            backgroundImage2.Source = ImageSource.FromFile("Images/200x200");
         }
     }
 }

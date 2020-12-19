@@ -11,3 +11,4 @@
 /Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/obj/Debug/netstandard2.0/HelloWorld.dll
 /Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/obj/Debug/netstandard2.0/HelloWorld.pdb
+/Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/obj/Debug/netstandard2.0/StackPage.xaml.g.cs

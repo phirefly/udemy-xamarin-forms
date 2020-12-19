@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace HelloWorld
         public App()
         {
             InitializeComponent();
-            MainPage = new GreetPage();
+            MainPage = new StackPage();
         }
 
         protected override void OnStart()

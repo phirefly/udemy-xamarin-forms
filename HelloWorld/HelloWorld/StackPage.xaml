@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackPage"
+             Padding="0,20,0,0"
+             >
+    <StackLayout BackgroundColor="Goldenrod" 
+                 VerticalOptions="Center" 
+                 Spacing="20"
+                 Padding="25"
+                 HorizontalOptions="Center">
+        <StackLayout VerticalOptions="Center" BackgroundColor="Aquamarine" >
+            <Image x:Name="backgroundImage"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1">
+            </Image>
+            <Label Text="Label 1" />
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Label 2" />
+            <Image x:Name="backgroundImage2"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1">
+            </Image>
+        </StackLayout>
+        <Label Text="Label 3" />
+    </StackLayout>
+</ContentPage>
