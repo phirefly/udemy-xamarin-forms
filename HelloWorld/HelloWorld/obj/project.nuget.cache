@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TVtr1AYYvsPEiXkeXzgraWlHOlyjClYNWcRDJ9h1ui034hJMvWfoZ6eUpr4xUJcnl9564g5cEfqVjzdRzvOO3Q==",
+  "success": true,
+  "projectFilePath": "/Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld/HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "/Users/raphael.villas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/raphael.villas/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/raphael.villas/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+  ],
+  "logs": []
+}

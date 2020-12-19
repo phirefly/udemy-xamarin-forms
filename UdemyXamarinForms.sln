@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld\HelloWorld.csproj", "{42BA58CA-87A8-4F84-88A4-4E543CE09A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Android", "HelloWorld\HelloWorld.Android\HelloWorld.Android.csproj", "{AA316D2C-7E36-4B36-85BA-691F1E39978E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.iOS", "HelloWorld\HelloWorld.iOS\HelloWorld.iOS.csproj", "{D2746D9D-2A86-4308-A0F4-EC85D9408EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA316D2C-7E36-4B36-85BA-691F1E39978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA316D2C-7E36-4B36-85BA-691F1E39978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA316D2C-7E36-4B36-85BA-691F1E39978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA316D2C-7E36-4B36-85BA-691F1E39978E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2746D9D-2A86-4308-A0F4-EC85D9408EEC}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D2746D9D-2A86-4308-A0F4-EC85D9408EEC}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D2746D9D-2A86-4308-A0F4-EC85D9408EEC}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{D2746D9D-2A86-4308-A0F4-EC85D9408EEC}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

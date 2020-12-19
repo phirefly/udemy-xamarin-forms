@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eD7hG9200YsoYFwoFmP83W7Idvgg30zp+j0I3zM29jIz3N9Z50rcnwqJg5fnH5Hg/yvCSn7AnOZEZ9Sxk+7JCA==",
+  "success": true,
+  "projectFilePath": "/Users/raphael.villas/RiderProjects/UdemyXamarinForms/HelloWorld/HelloWorld.iOS/HelloWorld.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/raphael.villas/.nuget/packages/xamarin.forms/3.3.0.967583/xamarin.forms.3.3.0.967583.nupkg.sha512"
+  ],
+  "logs": []
+}

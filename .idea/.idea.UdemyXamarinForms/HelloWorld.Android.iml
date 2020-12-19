@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE_ANDROID" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android Facet - HelloWorld.Android">
+      <configuration>
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/Properties/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/Resources" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/Assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../HelloWorld/HelloWorld.Android" />
+    <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="design-23.4.0.1" level="project" />
+    <orderEntry type="library" name="appcompat-v7-23.4.0.1" level="project" />
+    <orderEntry type="library" name="support-v4-23.4.0.1" level="project" />
+    <orderEntry type="library" name="cardview-v7-23.4.0.1" level="project" />
+    <orderEntry type="library" name="mediarouter-v7-23.4.0.1" level="project" />
+  </component>
+</module>
