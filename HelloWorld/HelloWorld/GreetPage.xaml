@@ -5,9 +5,13 @@
              x:Class="HelloWorld.GreetPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="{Binding 
-                Source={x:Reference greetingSlider}, 
-                Path=Value, 
-                StringFormat='Value is {0:F2}'}">
+               Source={x:Reference greetingSlider}, 
+               Path=Value, 
+               StringFormat='Value is {0:F2}'}"
+               Opacity="{Binding 
+               Source={x:Reference greetingSlider}, 
+               Path=Value}"
+               >
         </Label>
         <Slider x:Name="greetingSlider" />
     </StackLayout>
