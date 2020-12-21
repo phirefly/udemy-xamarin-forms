@@ -8,13 +8,23 @@
             <Label Text="Hello, world!"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="contactsListView">
+            <ListView x:Name="contactsListView" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Text="{Binding Name}" 
-                                   Detail="{Binding Status}"
-                                   ImageSource="{Binding ImageUrl}"
-                                  />
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="7">
+                                <Image Source="{Binding ImageUrl}" />
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding Name}"></Label>
+                                    <Label Text="{Binding Status}" TextColor="Gray"></Label>
+                                </StackLayout>
+                                <Button Text="Follow"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                        <!-- <ImageCell Text="{Binding Name}"  -->
+                        <!--            Detail="{Binding Status}" -->
+                        <!--            ImageSource="{Binding ImageUrl}" -->
+                        <!--           /> -->
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
