@@ -11,8 +11,9 @@
             <ListView x:Name="contactsListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}" 
-                                  Detail="{Binding Status}"
+                        <ImageCell Text="{Binding Name}" 
+                                   Detail="{Binding Status}"
+                                   ImageSource="{Binding ImageUrl}"
                                   />
                     </DataTemplate>
                 </ListView.ItemTemplate>

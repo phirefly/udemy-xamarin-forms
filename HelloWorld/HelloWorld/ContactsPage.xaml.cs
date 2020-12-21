@@ -20,17 +20,17 @@ namespace HelloWorld
                 new Contact
                 {
                     Name = "George Jetson", Status = "Pending",
-                    ImageUrl = "https=//via.placeholder.com/728x90.png?text=George+Jetson"
+                    ImageUrl = "https://via.placeholder.com/150?text=Judy+Jetson"
                 },
                 new Contact
                 {
                     Name = "Elroy Jetson", Status = "Pending",
-                    ImageUrl = "https=//via.placeholder.com/728x90.png?text=Elroy+Jetson"
+                    ImageUrl = "https://via.placeholder.com/150?text=Judy+Jetson"
                 },
                 new Contact
                 {
                     Name = "Judy Jetson", Status = "Pending",
-                    ImageUrl = "https=//via.placeholder.com/728x90.png?text=Judy+Jetson"
+                    ImageUrl = "https://via.placeholder.com/150?text=Judy+Jetson"
                 }
             };
         }
