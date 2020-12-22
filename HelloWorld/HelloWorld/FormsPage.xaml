@@ -17,11 +17,14 @@
                 <Label Text="Declarative approach" 
                        IsVisible="{Binding Source={x:Reference mySwitch}, Path=IsToggled}" />
             </StackLayout>
-            <StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
                 <Label Text="input example"></Label>
                 <Entry Keyboard="Text" Placeholder="Title" />
-                <Entry Keyboard="Text" Placeholder="Description" />
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Editor Keyboard="Text" Placeholder="Description"></Editor>
+                </StackLayout>
                 <Entry Keyboard="Numeric" Placeholder="Phone number" Completed="Entry_OnCompleted"/>
+                <!-- Other studies: onTextChanged -->
                 <Label x:Name="completedStatusText" />
             </StackLayout>
         </StackLayout>
