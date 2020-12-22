@@ -11,7 +11,11 @@
                        VerticalOptions="CenterAndExpand"
                        HorizontalOptions="CenterAndExpand" />
                 <Switch IsToggled="True" Toggled="Switch_OnToggled" />
-                <Label Text="(Some conditional content to show/hide)" x:Name="conditionalContent" />
+                <Label Text="Some conditional content to show/hide" x:Name="conditionalContent" />
+                
+                <Switch IsToggled="True" x:Name="mySwitch" />
+                <Label Text="Declarative approach" 
+                       IsVisible="{Binding Source={x:Reference mySwitch}, Path=IsToggled}" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
