@@ -21,5 +21,10 @@ namespace HelloWorld
         {
             conditionalContent.IsVisible = e.Value;
         }
+
+        private void Entry_OnCompleted(object sender, EventArgs e)
+        {
+            completedStatusText.Text = "All done!";
+        }
     }
 }

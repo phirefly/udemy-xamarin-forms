@@ -17,6 +17,13 @@
                 <Label Text="Declarative approach" 
                        IsVisible="{Binding Source={x:Reference mySwitch}, Path=IsToggled}" />
             </StackLayout>
+            <StackLayout>
+                <Label Text="input example"></Label>
+                <Entry Keyboard="Text" Placeholder="Title" />
+                <Entry Keyboard="Text" Placeholder="Description" />
+                <Entry Keyboard="Numeric" Placeholder="Phone number" Completed="Entry_OnCompleted"/>
+                <Label x:Name="completedStatusText" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
