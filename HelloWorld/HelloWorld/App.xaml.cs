@@ -11,7 +11,7 @@ namespace HelloWorld
         public App()
         {
             InitializeComponent();
-            MainPage = new ContactsPage();
+            MainPage = new FormsPage();
         }
 
         protected override void OnStart()
