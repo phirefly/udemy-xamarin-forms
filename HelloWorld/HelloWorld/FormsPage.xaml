@@ -6,10 +6,10 @@
              Padding="40">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Switch Example"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
             <StackLayout>
+                <Label Text="Switch Example"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
                 <Switch IsToggled="True" Toggled="Switch_OnToggled" />
                 <Label Text="(Some conditional content to show/hide)" x:Name="conditionalContent" />
             </StackLayout>
